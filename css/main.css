@@ -3,16 +3,16 @@
     body nav a {
         font-size: 10px;
     }
-    header #header-text {
-        margin-bottom: 12%;
+    body header #header-text {
+        margin-bottom: 10%;
     }
-    #header-text h1 {
-        font-size: 36px;
+    body header #header-text h1 {
+        font-size: 34px;
     }
-    #header-text h2 {
-        font-size: 26px;
+    body header #header-text h2 {
+        font-size: 22px;
     }
-    #header-text p {
+    body header #header-text p {
         font-size: 14px;
     }
     body footer p {
@@ -49,6 +49,16 @@
 @media screen and (max-width: 768px) {
     body header {
         padding: 10% 10%;
+        margin-bottom: 10%;
+    }
+    header #header-text h1 {
+        font-size: 42px;
+    }
+    header #header-text h2 {
+        font-size: 28px;
+    }
+    header #header-text p {
+        font-size: 18px;
     }
     body footer p {
         text-align: center;
@@ -100,7 +110,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    min-width: 332px;
+    min-width: 435px;
     font-family: 'Poppins', sans-serif;
     color: var(--primary);
     background: var(--bg-primary);
@@ -183,6 +193,9 @@ footer {
     width: 2px;
     fill: var(--bg-secondary);
     animation: up-down 1500ms infinite;
+}
+#blog {
+    min-height: 60vh;
 }
 .container {
     padding: 0 14%;
