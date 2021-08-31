@@ -3,6 +3,9 @@
     body nav a {
         font-size: 10px;
     }
+    html body header {
+        padding: 10% 2%;
+    }
     body header #header-text {
         margin-bottom: 10%;
     }
@@ -13,7 +16,7 @@
         font-size: 22px;
     }
     body header #header-text p {
-        font-size: 14px;
+        font-size: 16px;
     }
     body footer p {
         font-size: 12px;
@@ -23,27 +26,21 @@
     }
     header #scroll-outer {
         height: 20px;
-        fill: none;
-        stroke: var(--bg-secondary);
-        stroke-width: 3px;
     }
     header #scroll-inner {
         margin-left: -7px;
         height: 6px;
         width: 2px;
     }
-    div .container {
-        padding: 0;
-    }
     .col .col-text h2 {
         font-size: 28px;
         line-height: 40px;
     }
     .col .col-text h3 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .col .col-text p {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -110,7 +107,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    min-width: 435px;
+    min-width: 270px;
     font-family: 'Poppins', sans-serif;
     color: var(--primary);
     background: var(--bg-primary);
