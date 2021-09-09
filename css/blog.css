@@ -9,6 +9,9 @@
     section .container p {
         font-size: 14px;
     }
+    section .container p b {
+        font-size: 16px;
+    }
 }
 @media screen and (max-width: 768px) {
     section .container {
