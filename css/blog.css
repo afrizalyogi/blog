@@ -25,6 +25,14 @@
     text-align: justify;
     width: 50%;
 }
+.container .title {
+    margin-bottom: 8%;
+    line-height: normal;
+}
+.container img {
+    margin-bottom: 8%;
+    width: 100%;
+}
 .container h3 {
     font-size: 26px;
     font-weight: 600;
