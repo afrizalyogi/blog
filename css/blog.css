@@ -12,6 +12,9 @@
     section .container p b {
         font-size: 16px;
     }
+    section .container li {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 768px) {
     section .container {
@@ -46,4 +49,8 @@
 .container p b {
     font-size: 20px;
     font-weight: 500;
+}
+.container li {
+    font-size: 18px;
+    line-height: 38px;
 }
