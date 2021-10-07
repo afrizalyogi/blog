@@ -21,6 +21,14 @@
         width: 70%;
     }
 }
+.author {
+    padding: 3% 5%;
+    background-color: #eee;
+    border-radius: 25px;
+}
+.container .author p {
+    margin-bottom: 3%;
+}
 .container {
     padding: 12%;
     margin-left: auto;
@@ -50,7 +58,14 @@
     font-size: 20px;
     font-weight: 500;
 }
+.container ul {
+    margin-bottom: 8%;
+    padding-left: 4%;
+}
 .container li {
     font-size: 18px;
     line-height: 38px;
+}
+.nested-list {
+    margin-bottom: 0 !important;
 }
